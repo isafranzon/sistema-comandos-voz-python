@@ -58,7 +58,7 @@ Esses ajustes contribuíram para tornar o sistema mais estável e funcional.
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/isafranzon/sistema-comandos-voz-python.git
 
 2. Instale as dependências:
     ```bash
@@ -66,7 +66,7 @@ Esses ajustes contribuíram para tornar o sistema mais estável e funcional.
 
 3. Execute o arquivo principal:
    ```bash
-   python nome_do_arquivo.py
+   python sistema-comandos-voz-python.py
 
 4. Fale um dos comandos configurados no sistema.
 
