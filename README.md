@@ -60,15 +60,26 @@ Esses ajustes contribuíram para tornar o sistema mais estável e funcional.
    ```bash
    git clone https://github.com/isafranzon/sistema-comandos-voz-python.git
 
-2. Instale as dependências:
+2. Acesse a pasta do projeto:
     ```bash
-   pip install SpeechRecognition pyaudio
+   cd sistema-comandos-voz-python
 
-3. Execute o arquivo principal:
+3. Instale as dependências:
+    ```bash
+   pip install -r requirements.txt
+
+4. Observação:
+   No Windows, a biblioteca PyAudio pode exigir instalação adicional. Caso ocorra erro, utilize:
+
+    ```bash
+    pip install pipwin
+    pipwin install pyaudio
+
+5. Execute o arquivo principal:
    ```bash
    python sistema-comandos-voz-python.py
 
-4. Fale um dos comandos configurados no sistema.
+6. Fale um dos comandos configurados no sistema.
 
 ---
 
@@ -90,10 +101,10 @@ Esses ajustes contribuíram para tornar o sistema mais estável e funcional.
 * Implementar suporte a outros idiomas
 
 * Transformar o sistema em uma aplicação com interface gráfica
+  
 
 ---
 
----
 
 ## Contexto do Projeto
 
