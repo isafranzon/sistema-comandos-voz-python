@@ -4,7 +4,6 @@ import speech_recognition as sr
 import os
 import webbrowser
 
-
 #Função para ouvir e reconhecer a fala
 def ouvir_microfone():
     #Habilita o microfone do usuário
